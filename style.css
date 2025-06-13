@@ -1,0 +1,42 @@
+:root {
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.page {
+    display: flex;
+    border: 5px purple outset;
+    background-color: paleturquoise;
+}
+
+.main {
+    border: 1px solid black;
+}
+
+.row2 {
+    display: flex;
+}
+
+.resources {
+    width: 25%;
+}
+
+.topnav {
+    background-color: blue;
+    border: 2px solid purple;
+}
+
+button:hover {
+    background-color: black;
+}
+
+img {
+    width: 200px;
+    height: 420px;
+}
+
+.image {
+    overflow: hidden;
+}

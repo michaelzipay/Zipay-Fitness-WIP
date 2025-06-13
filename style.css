@@ -1,40 +1,94 @@
 :root {
-    background-color: white;
-    border-radius: 10px;
-    border: 3px solid black;
-    text-align: center;
+    --primary-color: #6A0DAD;
+    --secondary-color: #E6D6F3;
+    --background-color: #FFFFFF;
+    --text-color: #333333;
+    --accent-color: #9B30FF;
+    --hover-bg: #F3E9FC;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    display: flex;
+    height: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+button {
+    border-radius: 0px;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: var(--hover-bg);
 }
 
 .page {
     display: flex;
-    border: 5px purple outset;
-    background-color: paleturquoise;
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100%;
 }
 
 .main {
-    border: 1px solid black;
+    border: 1px solid var(--accent-color);
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.title {
+    height: 150px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
 }
 
 .row2 {
     display: flex;
+    height: fit-content;
+}
+
+.subscription {
+    width: 75%;
 }
 
 .resources {
     width: 25%;
 }
 
-.topnav {
-    background-color: blue;
-    border: 2px solid purple;
-}
-
-button:hover {
-    background-color: black;
+li {
+    font-size: 20px;
 }
 
 img {
-    width: 200px;
+    width: 300px;
     height: 420px;
+    alt: "photos of mr zipay";
 }
 
 .image {

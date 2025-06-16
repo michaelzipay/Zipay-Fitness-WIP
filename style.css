@@ -44,11 +44,24 @@ button:hover {
     background-color: var(--hover-bg);
 }
 
-.page {
+.signup {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    transition: background-color 0.5s ease;
+    text-align: center;
+    border: 1px outset black;
+    margin-top: .75px;
+}
+
+.signup:hover {
+    background-color: var(--hover-bg);
+}
+
+.photo-row {
     display: flex;
     background-color: var(--background-color);
     width: 100%;
-    height: 100%;
+    height: 720px;
 }
 
 .main {
@@ -60,8 +73,8 @@ button:hover {
 }
 
 .title {
-    height: 150px;
-    text-align: center;
+    height: 33%;
+    text-align: left;
 }
 
 p {
@@ -70,7 +83,7 @@ p {
 
 .row2 {
     display: flex;
-    height: fit-content;
+    height: 33%;
 }
 
 .subscription {
@@ -85,12 +98,41 @@ li {
     font-size: 20px;
 }
 
+.start-go-ready-boom {
+    display: flex;
+    height: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-green {
+    background-color: lime;
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+}
+
 img {
-    width: 300px;
-    height: 420px;
-    alt: "photos of mr zipay";
+    height: 100%;
+    width: 100%;
 }
 
 .image {
+    border: 1px solid var(--accent-color);
+    width: 33%;
     overflow: hidden;
+}
+
+.reviews {
+    border: 1px solid var(--accent-color);
+    background-color: var(--secondary-color);
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.main-form {
+    height: 1000px;
 }

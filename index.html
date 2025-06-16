@@ -4,7 +4,7 @@
 <!--I should make a phone viewport at some point-->
 
     <head>
-        <title>Zipay Fitness</title>
+        <title>Home</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
@@ -15,19 +15,21 @@
             <h1>Zipay Fitness</h1>
             <nav>
                 <button onclick="location.href='index.html'">Home</button>
-                <button onclick="location.href='about.html'">About Me</button>
-                <button onclick="location.href='contact.html'">Contact Me</button>
+                <button onclick="location.href='about.html'">About</button>
+                <a href="signup.html" class="signup">Sign Up Now</a>
             </nav>
         </header>
-        <div class="page">
+        <div class="photo-row">
             <div class="left image">
-                <img src="back.jpeg">
+                <img src="images/back.jpeg" alt="photo 1 of mr zipay">
             </div>
             <div class="main content">
                 <div class="main title">
+                    <h2>What We Do:</h2>
                     <p>Zipay Fitness is a personal training service 
 						prioritizing healthy lifestyles for college students 
-						at the University of Scranton.
+						looking to more efficiently spend their time in the gym.
+                        
 					</p>
                 </div>
                 <div class="main row2">
@@ -36,7 +38,7 @@
 								<ul>
 									<li>Preliminary consultation via Google Forms</li>
 									<li>A personalized training plan based on your conultation</li>
-									<li>A gym visit together to demonstrate each exercise and asses your favorites</li>
+									<li>A gym visit together to demonstrate each exercise and assess your favorites</li>
 									<li>A final, revised plan based on the gym visit</li>
 								</ul>
                     </div>
@@ -48,10 +50,24 @@
 							</ul>
                     </div>
                 </div>
+                    <div class="start-go-ready-boom">
+                        <button class="big-green">Signup</button>
+                    </div>
             </div>
             <div class="right image">
-                <img src="images/front.jpeg">
+                <img src="images/front.jpeg" alt="photo 2 of mr zipay">
             </div>
         </div>
+        <div class="reviews">
+            <h2>Let's see what previous clients have to say:</h2>
+            <div class="review one">
+                <p>Person 1 - I love this guy</p>
+            </div>
+            <div class="review two">
+                <p>Person 2 - Thank you for changing my life</p>
+            </div>
+        </div>
+        <footer>
+        </footer>
     </body>
 </html>

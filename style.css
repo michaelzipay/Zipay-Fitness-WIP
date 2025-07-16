@@ -136,3 +136,7 @@ iframe {
 .main-form {
     height: 1000px;
 }
+
+.price {
+    display: flex;
+}
